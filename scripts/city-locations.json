@@ -1,0 +1,744 @@
+{
+  "ac/brasilia": {
+    "label": "Brasiléia",
+    "coordinates": [
+      -69.2323,
+      -10.70335
+    ]
+  },
+  "ac/porto_acre": {
+    "label": "Porto Acre",
+    "coordinates": [
+      -67.7079,
+      -9.6352
+    ]
+  },
+  "al/arapiraca": {
+    "label": "Arapiraca",
+    "coordinates": [
+      -36.64855,
+      -9.75365
+    ]
+  },
+  "al/delmiro_gouveia": {
+    "label": "Delmiro Gouveia",
+    "coordinates": [
+      -38.05495,
+      -9.39955
+    ]
+  },
+  "al/palmeira_dos_indios": {
+    "label": "Palmeira dos Índios",
+    "coordinates": [
+      -36.5906,
+      -9.41195
+    ]
+  },
+  "al/penedo": {
+    "label": "Penedo",
+    "coordinates": [
+      -36.49905,
+      -10.2313
+    ]
+  },
+  "al/rio_largo": {
+    "label": "Rio Largo",
+    "coordinates": [
+      -35.8646,
+      -9.4822
+    ]
+  },
+  "al/uniao_dos_palmares": {
+    "label": "União dos Palmares",
+    "coordinates": [
+      -36.03065,
+      -9.1249
+    ]
+  },
+  "am/humaita": {
+    "label": "Humaitá",
+    "coordinates": [
+      -62.6481,
+      -7.5128
+    ]
+  },
+  "am/manaus": {
+    "label": "Manaus",
+    "coordinates": [
+      -59.999,
+      -2.5858
+    ]
+  },
+  "am/maues": {
+    "label": "Maués",
+    "coordinates": [
+      -57.9166,
+      -5.24185
+    ]
+  },
+  "am/parintins": {
+    "label": "Parintins",
+    "coordinates": [
+      -56.9091,
+      -2.7876
+    ]
+  },
+  "am/tabatinga": {
+    "label": "Tabatinga",
+    "coordinates": [
+      -69.67175,
+      -4.02925
+    ]
+  },
+  "ap/oiapoque": {
+    "label": "Oiapoque",
+    "coordinates": [
+      -52.215,
+      3.2277
+    ]
+  },
+  "ap/pedra_branca_do_amapari": {
+    "label": "Pedra Branca do Amapari",
+    "coordinates": [
+      -52.3817,
+      1.22865
+    ]
+  },
+  "ap/porto_grande": {
+    "label": "Porto Grande",
+    "coordinates": [
+      -51.69605,
+      0.60565
+    ]
+  },
+  "ap/santana": {
+    "label": "Santana",
+    "coordinates": [
+      -51.3392,
+      0.17545
+    ]
+  },
+  "ap/tartarugalzinho": {
+    "label": "Tartarugalzinho",
+    "coordinates": [
+      -50.95185,
+      1.3157
+    ]
+  },
+  "ba/alagoinhas": {
+    "label": "Alagoinhas",
+    "coordinates": [
+      -38.42985,
+      -12.1081
+    ]
+  },
+  "ba/camacari": {
+    "label": "Camaçari",
+    "coordinates": [
+      -38.203,
+      -12.6669
+    ]
+  },
+  "ba/ilheus": {
+    "label": "Ilhéus",
+    "coordinates": [
+      -39.27345,
+      -14.76515
+    ]
+  },
+  "ce/caucaia": {
+    "label": "Caucaia",
+    "coordinates": [
+      -38.79345,
+      -3.7717
+    ]
+  },
+  "ce/fortaleza": {
+    "label": "Fortaleza",
+    "coordinates": [
+      -38.51985,
+      -3.7923
+    ]
+  },
+  "ce/iguatu": {
+    "label": "Iguatu",
+    "coordinates": [
+      -39.263,
+      -6.35335
+    ]
+  },
+  "ce/juazeiro_do_norte": {
+    "label": "Juazeiro do Norte",
+    "coordinates": [
+      -39.28005,
+      -7.1791
+    ]
+  },
+  "ce/maracanau": {
+    "label": "Maracanaú",
+    "coordinates": [
+      -38.6152,
+      -3.88495
+    ]
+  },
+  "ce/sobral": {
+    "label": "Sobral",
+    "coordinates": [
+      -40.2821,
+      -3.85785
+    ]
+  },
+  "df/brasilia": {
+    "label": "Brasília",
+    "coordinates": [
+      -47.8828,
+      -15.7939
+    ]
+  },
+  "df/samambaia": {
+    "label": "Samambaia",
+    "coordinates": [
+      -48.0856,
+      -15.8757
+    ]
+  },
+  "df/taguatinga": {
+    "label": "Taguatinga",
+    "coordinates": [
+      -48.0562,
+      -15.8321
+    ]
+  },
+  "es/vitoria": {
+    "label": "Vitória",
+    "coordinates": [
+      -40.28825,
+      -20.28215
+    ]
+  },
+  "go/valparaiso_de_goias": {
+    "label": "Valparaíso de Goiás",
+    "coordinates": [
+      -47.98475,
+      -16.0933
+    ]
+  },
+  "ma/caxias": {
+    "label": "Caxias",
+    "coordinates": [
+      -43.34275,
+      -4.8471
+    ]
+  },
+  "ma/paco_do_luminar": {
+    "label": "Paço do Lumiar",
+    "coordinates": [
+      -44.12385,
+      -2.50455
+    ]
+  },
+  "ma/santa_ines": {
+    "label": "Santa Inês",
+    "coordinates": [
+      -45.45805,
+      -3.85295
+    ]
+  },
+  "ma/sao_jose_de_ribamar": {
+    "label": "São José de Ribamar",
+    "coordinates": [
+      -44.12235,
+      -2.58155
+    ]
+  },
+  "ma/sao_luis": {
+    "label": "São Luís",
+    "coordinates": [
+      -44.2859,
+      -2.63655
+    ]
+  },
+  "ma/timon": {
+    "label": "Timon",
+    "coordinates": [
+      -43.0025,
+      -5.1741
+    ]
+  },
+  "mg/betim": {
+    "label": "Betim",
+    "coordinates": [
+      -44.1927,
+      -19.94615
+    ]
+  },
+  "mg/contagem": {
+    "label": "Contagem",
+    "coordinates": [
+      -44.08535,
+      -19.8878
+    ]
+  },
+  "mg/divinopolis": {
+    "label": "Divinópolis",
+    "coordinates": [
+      -44.9375,
+      -20.1123
+    ]
+  },
+  "mg/ipatinga": {
+    "label": "Ipatinga",
+    "coordinates": [
+      -42.60415,
+      -19.44175
+    ]
+  },
+  "mg/montes_claros": {
+    "label": "Montes Claros",
+    "coordinates": [
+      -43.93935,
+      -16.61625
+    ]
+  },
+  "mg/sete_lagoas": {
+    "label": "Sete Lagoas",
+    "coordinates": [
+      -44.294,
+      -19.446
+    ]
+  },
+  "ms/corumba": {
+    "label": "Corumbá",
+    "coordinates": [
+      -56.6527,
+      -19.0601
+    ]
+  },
+  "ms/paranaiba": {
+    "label": "Paranaíba",
+    "coordinates": [
+      -51.3964,
+      -19.55095
+    ]
+  },
+  "ms/sidrolandia": {
+    "label": "Sidrolândia",
+    "coordinates": [
+      -54.904,
+      -21.08545
+    ]
+  },
+  "mt/barra_do_garcas": {
+    "label": "Barra do Garças",
+    "coordinates": [
+      -52.56065,
+      -15.3561
+    ]
+  },
+  "mt/varzea_grande": {
+    "label": "Várzea Grande",
+    "coordinates": [
+      -56.2474,
+      -15.5587
+    ]
+  },
+  "pa/abaetetuba": {
+    "label": "Abaetetuba",
+    "coordinates": [
+      -48.84245,
+      -1.739
+    ]
+  },
+  "pa/ananindeua": {
+    "label": "Ananindeua",
+    "coordinates": [
+      -48.3856,
+      -1.33615
+    ]
+  },
+  "pa/belem": {
+    "label": "Belém",
+    "coordinates": [
+      -48.4631,
+      -1.273
+    ]
+  },
+  "pa/braganca": {
+    "label": "Bragança",
+    "coordinates": [
+      -46.78735,
+      -1.17695
+    ]
+  },
+  "pa/castanhal": {
+    "label": "Castanhal",
+    "coordinates": [
+      -47.8372,
+      -1.26095
+    ]
+  },
+  "pa/maraba": {
+    "label": "Marabá",
+    "coordinates": [
+      -50.06225,
+      -5.5249
+    ]
+  },
+  "pa/marituba": {
+    "label": "Marituba",
+    "coordinates": [
+      -48.32135,
+      -1.39975
+    ]
+  },
+  "pa/parauapebas": {
+    "label": "Parauapebas",
+    "coordinates": [
+      -50.4674,
+      -6.19875
+    ]
+  },
+  "pb/campina_grande": {
+    "label": "Campina Grande",
+    "coordinates": [
+      -35.9141,
+      -7.269
+    ]
+  },
+  "pb/joao_pessoa": {
+    "label": "João Pessoa",
+    "coordinates": [
+      -34.8819,
+      -7.15025
+    ]
+  },
+  "pb/santa_rita": {
+    "label": "Santa Rita",
+    "coordinates": [
+      -35.00845,
+      -7.0977
+    ]
+  },
+  "pb/sape": {
+    "label": "Sapé",
+    "coordinates": [
+      -35.20335,
+      -7.05925
+    ]
+  },
+  "pb/souza": {
+    "label": "Sousa",
+    "coordinates": [
+      -38.22325,
+      -6.7511
+    ]
+  },
+  "pe/camaragibe": {
+    "label": "Camaragibe",
+    "coordinates": [
+      -34.9994,
+      -7.98305
+    ]
+  },
+  "pe/jaboatao_dos_guararapes": {
+    "label": "Jaboatão dos Guararapes",
+    "coordinates": [
+      -35.00295,
+      -8.14345
+    ]
+  },
+  "pe/olinda": {
+    "label": "Olinda",
+    "coordinates": [
+      -34.87095,
+      -8.0018
+    ]
+  },
+  "pe/paulista": {
+    "label": "Paulista",
+    "coordinates": [
+      -34.92775,
+      -7.91225
+    ]
+  },
+  "pe/petrolina": {
+    "label": "Petrolina",
+    "coordinates": [
+      -40.5839,
+      -9.0532
+    ]
+  },
+  "pi/altos": {
+    "label": "Altos",
+    "coordinates": [
+      -42.45735,
+      -5.0175
+    ]
+  },
+  "pi/barras": {
+    "label": "Barras",
+    "coordinates": [
+      -42.32165,
+      -4.1538
+    ]
+  },
+  "pi/campo_maior": {
+    "label": "Campo Maior",
+    "coordinates": [
+      -42.12885,
+      -4.85935
+    ]
+  },
+  "pi/esperantina": {
+    "label": "Esperantina",
+    "coordinates": [
+      -42.18655,
+      -3.7948
+    ]
+  },
+  "pr/guarapuava": {
+    "label": "Guarapuava",
+    "coordinates": [
+      -51.5525,
+      -25.3543
+    ]
+  },
+  "pr/londrina": {
+    "label": "Londrina",
+    "coordinates": [
+      -51.0987,
+      -23.4753
+    ]
+  },
+  "pr/ponta_grossa": {
+    "label": "Ponta Grossa",
+    "coordinates": [
+      -50.0565,
+      -25.13915
+    ]
+  },
+  "pr/sao_jose_dos_pinhais": {
+    "label": "São José dos Pinhais",
+    "coordinates": [
+      -49.0616,
+      -25.64675
+    ]
+  },
+  "rj/volta_redonda": {
+    "label": "Volta Redonda",
+    "coordinates": [
+      -44.0808,
+      -22.52345
+    ]
+  },
+  "rn/assu": {
+    "label": "Assú",
+    "coordinates": [
+      -37.0056,
+      -5.59225
+    ]
+  },
+  "rn/caico": {
+    "label": "Caicó",
+    "coordinates": [
+      -37.0458,
+      -6.4625
+    ]
+  },
+  "rn/mossoro": {
+    "label": "Mossoró",
+    "coordinates": [
+      -37.3471,
+      -5.18575
+    ]
+  },
+  "rn/parnamirim": {
+    "label": "Parnamirim",
+    "coordinates": [
+      -35.20855,
+      -5.91575
+    ]
+  },
+  "ro/ariquemes": {
+    "label": "Ariquemes",
+    "coordinates": [
+      -63.0193,
+      -9.9795
+    ]
+  },
+  "ro/ji_parana": {
+    "label": "Ji-Paraná",
+    "coordinates": [
+      -61.8128,
+      -10.4292
+    ]
+  },
+  "ro/porto_velho": {
+    "label": "Porto Velho",
+    "coordinates": [
+      -64.5244,
+      -8.98815
+    ]
+  },
+  "rr/alto_alegre": {
+    "label": "Alto Alegre",
+    "coordinates": [
+      -62.6104,
+      3.10345
+    ]
+  },
+  "rr/boa_vista": {
+    "label": "Boa Vista",
+    "coordinates": [
+      -60.6432,
+      3.0095
+    ]
+  },
+  "rr/bonfim": {
+    "label": "Bonfim",
+    "coordinates": [
+      -60.14455,
+      2.79295
+    ]
+  },
+  "rr/iracema": {
+    "label": "Iracema",
+    "coordinates": [
+      -62.4492,
+      2.1738
+    ]
+  },
+  "rr/mucajai": {
+    "label": "Mucajaí",
+    "coordinates": [
+      -61.9548,
+      2.5285
+    ]
+  },
+  "rs/porto_alegre": {
+    "label": "Porto Alegre",
+    "coordinates": [
+      -51.15755,
+      -30.0974
+    ]
+  },
+  "rs/santa_maria": {
+    "label": "Santa Maria",
+    "coordinates": [
+      -53.82525,
+      -29.77595
+    ]
+  },
+  "rs/sao_leopoldo": {
+    "label": "São Leopoldo",
+    "coordinates": [
+      -51.13895,
+      -29.74175
+    ]
+  },
+  "sc/blumenau": {
+    "label": "Blumenau",
+    "coordinates": [
+      -49.10515,
+      -26.8728
+    ]
+  },
+  "sc/itajai": {
+    "label": "Itajaí",
+    "coordinates": [
+      -48.74705,
+      -26.97615
+    ]
+  },
+  "sc/jaragua_do_sul": {
+    "label": "Jaraguá do Sul",
+    "coordinates": [
+      -49.15405,
+      -26.4342
+    ]
+  },
+  "sc/sao_jose": {
+    "label": "São José",
+    "coordinates": [
+      -48.65785,
+      -27.5899
+    ]
+  },
+  "se/itabaiana": {
+    "label": "Itabaiana",
+    "coordinates": [
+      -37.4255,
+      -10.6989
+    ]
+  },
+  "se/nossa_senhora_do_socorro": {
+    "label": "Nossa Senhora do Socorro",
+    "coordinates": [
+      -37.17325,
+      -10.8734
+    ]
+  },
+  "se/sao_cristovao": {
+    "label": "São Cristóvão",
+    "coordinates": [
+      -37.2109,
+      -10.9688
+    ]
+  },
+  "se/simao_dias": {
+    "label": "Simão Dias",
+    "coordinates": [
+      -37.82515,
+      -10.74075
+    ]
+  },
+  "se/tobias_barreto": {
+    "label": "Tobias Barreto",
+    "coordinates": [
+      -37.987,
+      -11.0814
+    ]
+  },
+  "sp/guarulhos": {
+    "label": "Guarulhos",
+    "coordinates": [
+      -46.4535,
+      -23.39025
+    ]
+  },
+  "sp/maua": {
+    "label": "Mauá",
+    "coordinates": [
+      -46.4347,
+      -23.6654
+    ]
+  },
+  "sp/santo_andre": {
+    "label": "Santo André",
+    "coordinates": [
+      -46.4228,
+      -23.71075
+    ]
+  },
+  "sp/sao_bernardo_do_campo": {
+    "label": "São Bernardo do Campo",
+    "coordinates": [
+      -46.5308,
+      -23.8044
+    ]
+  },
+  "sp/sao_paulo": {
+    "label": "São Paulo",
+    "coordinates": [
+      -46.59485,
+      -23.68245
+    ]
+  },
+  "to/colinas_do_tocantins": {
+    "label": "Colinas do Tocantins",
+    "coordinates": [
+      -48.515,
+      -8.0684
+    ]
+  }
+}

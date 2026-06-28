@@ -1,0 +1,1010 @@
+{
+  "ac": [
+    {
+      "file": "brasilia.jpg",
+      "city": "brasilia",
+      "label": "Brasiléia",
+      "coordinates": [
+        -69.2323,
+        -10.70335
+      ]
+    },
+    {
+      "file": "porto_acre.jpg",
+      "city": "porto_acre",
+      "label": "Porto Acre",
+      "coordinates": [
+        -67.7079,
+        -9.6352
+      ]
+    }
+  ],
+  "al": [
+    {
+      "file": "arapiraca.jpg",
+      "city": "arapiraca",
+      "label": "Arapiraca",
+      "coordinates": [
+        -36.64855,
+        -9.75365
+      ]
+    },
+    {
+      "file": "delmiro_gouveia.jpg",
+      "city": "delmiro_gouveia",
+      "label": "Delmiro Gouveia",
+      "coordinates": [
+        -38.05495,
+        -9.39955
+      ]
+    },
+    {
+      "file": "palmeira_dos_indios.jpg",
+      "city": "palmeira_dos_indios",
+      "label": "Palmeira dos Índios",
+      "coordinates": [
+        -36.5906,
+        -9.41195
+      ]
+    },
+    {
+      "file": "penedo.jpg",
+      "city": "penedo",
+      "label": "Penedo",
+      "coordinates": [
+        -36.49905,
+        -10.2313
+      ]
+    },
+    {
+      "file": "rio_largo.jpg",
+      "city": "rio_largo",
+      "label": "Rio Largo",
+      "coordinates": [
+        -35.8646,
+        -9.4822
+      ]
+    },
+    {
+      "file": "uniao_dos_palmares.jpg",
+      "city": "uniao_dos_palmares",
+      "label": "União dos Palmares",
+      "coordinates": [
+        -36.03065,
+        -9.1249
+      ]
+    }
+  ],
+  "am": [
+    {
+      "file": "humaita.jpg",
+      "city": "humaita",
+      "label": "Humaitá",
+      "coordinates": [
+        -62.6481,
+        -7.5128
+      ]
+    },
+    {
+      "file": "manaus.jpg",
+      "city": "manaus",
+      "label": "Manaus",
+      "coordinates": [
+        -59.999,
+        -2.5858
+      ]
+    },
+    {
+      "file": "maues.jpg",
+      "city": "maues",
+      "label": "Maués",
+      "coordinates": [
+        -57.9166,
+        -5.24185
+      ]
+    },
+    {
+      "file": "parintins.jpg",
+      "city": "parintins",
+      "label": "Parintins",
+      "coordinates": [
+        -56.9091,
+        -2.7876
+      ]
+    },
+    {
+      "file": "tabatinga.jpg",
+      "city": "tabatinga",
+      "label": "Tabatinga",
+      "coordinates": [
+        -69.67175,
+        -4.02925
+      ]
+    }
+  ],
+  "ap": [
+    {
+      "file": "oiapoque.jpg",
+      "city": "oiapoque",
+      "label": "Oiapoque",
+      "coordinates": [
+        -52.215,
+        3.2277
+      ]
+    },
+    {
+      "file": "pedra_branca_do_amapari.jpg",
+      "city": "pedra_branca_do_amapari",
+      "label": "Pedra Branca do Amapari",
+      "coordinates": [
+        -52.3817,
+        1.22865
+      ]
+    },
+    {
+      "file": "porto_grande.jpg",
+      "city": "porto_grande",
+      "label": "Porto Grande",
+      "coordinates": [
+        -51.69605,
+        0.60565
+      ]
+    },
+    {
+      "file": "santana.jpg",
+      "city": "santana",
+      "label": "Santana",
+      "coordinates": [
+        -51.3392,
+        0.17545
+      ]
+    },
+    {
+      "file": "tartarugalzinho.jpg",
+      "city": "tartarugalzinho",
+      "label": "Tartarugalzinho",
+      "coordinates": [
+        -50.95185,
+        1.3157
+      ]
+    }
+  ],
+  "ba": [
+    {
+      "file": "alagoinhas.jpg",
+      "city": "alagoinhas",
+      "label": "Alagoinhas",
+      "coordinates": [
+        -38.42985,
+        -12.1081
+      ]
+    },
+    {
+      "file": "camacari.jpg",
+      "city": "camacari",
+      "label": "Camaçari",
+      "coordinates": [
+        -38.203,
+        -12.6669
+      ]
+    },
+    {
+      "file": "ilheus.jpg",
+      "city": "ilheus",
+      "label": "Ilhéus",
+      "coordinates": [
+        -39.27345,
+        -14.76515
+      ]
+    }
+  ],
+  "ce": [
+    {
+      "file": "caucaia.jpg",
+      "city": "caucaia",
+      "label": "Caucaia",
+      "coordinates": [
+        -38.79345,
+        -3.7717
+      ]
+    },
+    {
+      "file": "fortaleza.jpg",
+      "city": "fortaleza",
+      "label": "Fortaleza",
+      "coordinates": [
+        -38.51985,
+        -3.7923
+      ]
+    },
+    {
+      "file": "iguatu.jpg",
+      "city": "iguatu",
+      "label": "Iguatu",
+      "coordinates": [
+        -39.263,
+        -6.35335
+      ]
+    },
+    {
+      "file": "juazeiro_do_norte.jpg",
+      "city": "juazeiro_do_norte",
+      "label": "Juazeiro do Norte",
+      "coordinates": [
+        -39.28005,
+        -7.1791
+      ]
+    },
+    {
+      "file": "maracanau.jpg",
+      "city": "maracanau",
+      "label": "Maracanaú",
+      "coordinates": [
+        -38.6152,
+        -3.88495
+      ]
+    },
+    {
+      "file": "sobral.jpg",
+      "city": "sobral",
+      "label": "Sobral",
+      "coordinates": [
+        -40.2821,
+        -3.85785
+      ]
+    }
+  ],
+  "df": [
+    {
+      "file": "brasilia.jpg",
+      "city": "brasilia",
+      "label": "Brasília",
+      "coordinates": [
+        -47.8828,
+        -15.7939
+      ]
+    },
+    {
+      "file": "samambaia.jpg",
+      "city": "samambaia",
+      "label": "Samambaia",
+      "coordinates": [
+        -48.0856,
+        -15.8757
+      ]
+    },
+    {
+      "file": "taguatinga.jpg",
+      "city": "taguatinga",
+      "label": "Taguatinga",
+      "coordinates": [
+        -48.0562,
+        -15.8321
+      ]
+    }
+  ],
+  "es": [
+    {
+      "file": "vitoria.jpg",
+      "city": "vitoria",
+      "label": "Vitória",
+      "coordinates": [
+        -40.28825,
+        -20.28215
+      ]
+    }
+  ],
+  "go": [
+    {
+      "file": "valparaiso_de_goias.jpg",
+      "city": "valparaiso_de_goias",
+      "label": "Valparaíso de Goiás",
+      "coordinates": [
+        -47.98475,
+        -16.0933
+      ]
+    }
+  ],
+  "ma": [
+    {
+      "file": "caxias.jpg",
+      "city": "caxias",
+      "label": "Caxias",
+      "coordinates": [
+        -43.34275,
+        -4.8471
+      ]
+    },
+    {
+      "file": "paco_do_luminar.jpg",
+      "city": "paco_do_luminar",
+      "label": "Paço do Lumiar",
+      "coordinates": [
+        -44.12385,
+        -2.50455
+      ]
+    },
+    {
+      "file": "santa_ines.jpg",
+      "city": "santa_ines",
+      "label": "Santa Inês",
+      "coordinates": [
+        -45.45805,
+        -3.85295
+      ]
+    },
+    {
+      "file": "sao_jose_de_ribamar.jpg",
+      "city": "sao_jose_de_ribamar",
+      "label": "São José de Ribamar",
+      "coordinates": [
+        -44.12235,
+        -2.58155
+      ]
+    },
+    {
+      "file": "sao_luis.jpg",
+      "city": "sao_luis",
+      "label": "São Luís",
+      "coordinates": [
+        -44.2859,
+        -2.63655
+      ]
+    },
+    {
+      "file": "timon.jpg",
+      "city": "timon",
+      "label": "Timon",
+      "coordinates": [
+        -43.0025,
+        -5.1741
+      ]
+    }
+  ],
+  "mg": [
+    {
+      "file": "betim.jpg",
+      "city": "betim",
+      "label": "Betim",
+      "coordinates": [
+        -44.1927,
+        -19.94615
+      ]
+    },
+    {
+      "file": "contagem.jpg",
+      "city": "contagem",
+      "label": "Contagem",
+      "coordinates": [
+        -44.08535,
+        -19.8878
+      ]
+    },
+    {
+      "file": "divinopolis.jpg",
+      "city": "divinopolis",
+      "label": "Divinópolis",
+      "coordinates": [
+        -44.9375,
+        -20.1123
+      ]
+    },
+    {
+      "file": "ipatinga.jpg",
+      "city": "ipatinga",
+      "label": "Ipatinga",
+      "coordinates": [
+        -42.60415,
+        -19.44175
+      ]
+    },
+    {
+      "file": "montes_claros.jpg",
+      "city": "montes_claros",
+      "label": "Montes Claros",
+      "coordinates": [
+        -43.93935,
+        -16.61625
+      ]
+    },
+    {
+      "file": "sete_lagoas.jpg",
+      "city": "sete_lagoas",
+      "label": "Sete Lagoas",
+      "coordinates": [
+        -44.294,
+        -19.446
+      ]
+    }
+  ],
+  "ms": [
+    {
+      "file": "corumba.jpg",
+      "city": "corumba",
+      "label": "Corumbá",
+      "coordinates": [
+        -56.6527,
+        -19.0601
+      ]
+    },
+    {
+      "file": "paranaiba.jpg",
+      "city": "paranaiba",
+      "label": "Paranaíba",
+      "coordinates": [
+        -51.3964,
+        -19.55095
+      ]
+    },
+    {
+      "file": "sidrolandia.jpg",
+      "city": "sidrolandia",
+      "label": "Sidrolândia",
+      "coordinates": [
+        -54.904,
+        -21.08545
+      ]
+    }
+  ],
+  "mt": [
+    {
+      "file": "barra_do_garcas.jpg",
+      "city": "barra_do_garcas",
+      "label": "Barra do Garças",
+      "coordinates": [
+        -52.56065,
+        -15.3561
+      ]
+    },
+    {
+      "file": "varzea_grande.jpg",
+      "city": "varzea_grande",
+      "label": "Várzea Grande",
+      "coordinates": [
+        -56.2474,
+        -15.5587
+      ]
+    }
+  ],
+  "pa": [
+    {
+      "file": "abaetetuba.jpg",
+      "city": "abaetetuba",
+      "label": "Abaetetuba",
+      "coordinates": [
+        -48.84245,
+        -1.739
+      ]
+    },
+    {
+      "file": "ananindeua.jpg",
+      "city": "ananindeua",
+      "label": "Ananindeua",
+      "coordinates": [
+        -48.3856,
+        -1.33615
+      ]
+    },
+    {
+      "file": "belem.jpg",
+      "city": "belem",
+      "label": "Belém",
+      "coordinates": [
+        -48.4631,
+        -1.273
+      ]
+    },
+    {
+      "file": "braganca.jpg",
+      "city": "braganca",
+      "label": "Bragança",
+      "coordinates": [
+        -46.78735,
+        -1.17695
+      ]
+    },
+    {
+      "file": "castanhal.jpg",
+      "city": "castanhal",
+      "label": "Castanhal",
+      "coordinates": [
+        -47.8372,
+        -1.26095
+      ]
+    },
+    {
+      "file": "maraba.jpg",
+      "city": "maraba",
+      "label": "Marabá",
+      "coordinates": [
+        -50.06225,
+        -5.5249
+      ]
+    },
+    {
+      "file": "marituba.jpg",
+      "city": "marituba",
+      "label": "Marituba",
+      "coordinates": [
+        -48.32135,
+        -1.39975
+      ]
+    },
+    {
+      "file": "parauapebas.jpg",
+      "city": "parauapebas",
+      "label": "Parauapebas",
+      "coordinates": [
+        -50.4674,
+        -6.19875
+      ]
+    }
+  ],
+  "pb": [
+    {
+      "file": "campina_grande.jpg",
+      "city": "campina_grande",
+      "label": "Campina Grande",
+      "coordinates": [
+        -35.9141,
+        -7.269
+      ]
+    },
+    {
+      "file": "joao_pessoa.jpg",
+      "city": "joao_pessoa",
+      "label": "João Pessoa",
+      "coordinates": [
+        -34.8819,
+        -7.15025
+      ]
+    },
+    {
+      "file": "santa_rita.jpg",
+      "city": "santa_rita",
+      "label": "Santa Rita",
+      "coordinates": [
+        -35.00845,
+        -7.0977
+      ]
+    },
+    {
+      "file": "sape.jpg",
+      "city": "sape",
+      "label": "Sapé",
+      "coordinates": [
+        -35.20335,
+        -7.05925
+      ]
+    },
+    {
+      "file": "souza.jpg",
+      "city": "souza",
+      "label": "Sousa",
+      "coordinates": [
+        -38.22325,
+        -6.7511
+      ]
+    }
+  ],
+  "pe": [
+    {
+      "file": "camaragibe.jpg",
+      "city": "camaragibe",
+      "label": "Camaragibe",
+      "coordinates": [
+        -34.9994,
+        -7.98305
+      ]
+    },
+    {
+      "file": "jaboatao_dos_guararapes.jpg",
+      "city": "jaboatao_dos_guararapes",
+      "label": "Jaboatão dos Guararapes",
+      "coordinates": [
+        -35.00295,
+        -8.14345
+      ]
+    },
+    {
+      "file": "olinda.jpg",
+      "city": "olinda",
+      "label": "Olinda",
+      "coordinates": [
+        -34.87095,
+        -8.0018
+      ]
+    },
+    {
+      "file": "paulista.jpg",
+      "city": "paulista",
+      "label": "Paulista",
+      "coordinates": [
+        -34.92775,
+        -7.91225
+      ]
+    },
+    {
+      "file": "petrolina.jpg",
+      "city": "petrolina",
+      "label": "Petrolina",
+      "coordinates": [
+        -40.5839,
+        -9.0532
+      ]
+    }
+  ],
+  "pi": [
+    {
+      "file": "altos.jpg",
+      "city": "altos",
+      "label": "Altos",
+      "coordinates": [
+        -42.45735,
+        -5.0175
+      ]
+    },
+    {
+      "file": "barras.jpg",
+      "city": "barras",
+      "label": "Barras",
+      "coordinates": [
+        -42.32165,
+        -4.1538
+      ]
+    },
+    {
+      "file": "campo_maior.jpg",
+      "city": "campo_maior",
+      "label": "Campo Maior",
+      "coordinates": [
+        -42.12885,
+        -4.85935
+      ]
+    },
+    {
+      "file": "esperantina.jpg",
+      "city": "esperantina",
+      "label": "Esperantina",
+      "coordinates": [
+        -42.18655,
+        -3.7948
+      ]
+    }
+  ],
+  "pr": [
+    {
+      "file": "guarapuava.jpg",
+      "city": "guarapuava",
+      "label": "Guarapuava",
+      "coordinates": [
+        -51.5525,
+        -25.3543
+      ]
+    },
+    {
+      "file": "londrina.jpg",
+      "city": "londrina",
+      "label": "Londrina",
+      "coordinates": [
+        -51.0987,
+        -23.4753
+      ]
+    },
+    {
+      "file": "ponta_grossa.jpg",
+      "city": "ponta_grossa",
+      "label": "Ponta Grossa",
+      "coordinates": [
+        -50.0565,
+        -25.13915
+      ]
+    },
+    {
+      "file": "sao_jose_dos_pinhais.jpg",
+      "city": "sao_jose_dos_pinhais",
+      "label": "São José dos Pinhais",
+      "coordinates": [
+        -49.0616,
+        -25.64675
+      ]
+    }
+  ],
+  "rj": [
+    {
+      "file": "volta_redonda.jpg",
+      "city": "volta_redonda",
+      "label": "Volta Redonda",
+      "coordinates": [
+        -44.0808,
+        -22.52345
+      ]
+    }
+  ],
+  "rn": [
+    {
+      "file": "assu.jpg",
+      "city": "assu",
+      "label": "Assú",
+      "coordinates": [
+        -37.0056,
+        -5.59225
+      ]
+    },
+    {
+      "file": "caico.jpg",
+      "city": "caico",
+      "label": "Caicó",
+      "coordinates": [
+        -37.0458,
+        -6.4625
+      ]
+    },
+    {
+      "file": "mossoro.jpg",
+      "city": "mossoro",
+      "label": "Mossoró",
+      "coordinates": [
+        -37.3471,
+        -5.18575
+      ]
+    },
+    {
+      "file": "parnamirim.jpg",
+      "city": "parnamirim",
+      "label": "Parnamirim",
+      "coordinates": [
+        -35.20855,
+        -5.91575
+      ]
+    }
+  ],
+  "ro": [
+    {
+      "file": "ariquemes.jpg",
+      "city": "ariquemes",
+      "label": "Ariquemes",
+      "coordinates": [
+        -63.0193,
+        -9.9795
+      ]
+    },
+    {
+      "file": "ji_parana.jpg",
+      "city": "ji_parana",
+      "label": "Ji-Paraná",
+      "coordinates": [
+        -61.8128,
+        -10.4292
+      ]
+    },
+    {
+      "file": "porto_velho.jpg",
+      "city": "porto_velho",
+      "label": "Porto Velho",
+      "coordinates": [
+        -64.5244,
+        -8.98815
+      ]
+    }
+  ],
+  "rr": [
+    {
+      "file": "alto_alegre.jpg",
+      "city": "alto_alegre",
+      "label": "Alto Alegre",
+      "coordinates": [
+        -62.6104,
+        3.10345
+      ]
+    },
+    {
+      "file": "boa_vista.jpg",
+      "city": "boa_vista",
+      "label": "Boa Vista",
+      "coordinates": [
+        -60.6432,
+        3.0095
+      ]
+    },
+    {
+      "file": "bonfim.jpg",
+      "city": "bonfim",
+      "label": "Bonfim",
+      "coordinates": [
+        -60.14455,
+        2.79295
+      ]
+    },
+    {
+      "file": "iracema.jpg",
+      "city": "iracema",
+      "label": "Iracema",
+      "coordinates": [
+        -62.4492,
+        2.1738
+      ]
+    },
+    {
+      "file": "mucajai.jpg",
+      "city": "mucajai",
+      "label": "Mucajaí",
+      "coordinates": [
+        -61.9548,
+        2.5285
+      ]
+    }
+  ],
+  "rs": [
+    {
+      "file": "porto_alegre.jpg",
+      "city": "porto_alegre",
+      "label": "Porto Alegre",
+      "coordinates": [
+        -51.15755,
+        -30.0974
+      ]
+    },
+    {
+      "file": "santa_maria.jpg",
+      "city": "santa_maria",
+      "label": "Santa Maria",
+      "coordinates": [
+        -53.82525,
+        -29.77595
+      ]
+    },
+    {
+      "file": "sao_leopoldo.jpg",
+      "city": "sao_leopoldo",
+      "label": "São Leopoldo",
+      "coordinates": [
+        -51.13895,
+        -29.74175
+      ]
+    }
+  ],
+  "sc": [
+    {
+      "file": "blumenau.jpg",
+      "city": "blumenau",
+      "label": "Blumenau",
+      "coordinates": [
+        -49.10515,
+        -26.8728
+      ]
+    },
+    {
+      "file": "itajai.jpg",
+      "city": "itajai",
+      "label": "Itajaí",
+      "coordinates": [
+        -48.74705,
+        -26.97615
+      ]
+    },
+    {
+      "file": "jaragua_do_sul.jpg",
+      "city": "jaragua_do_sul",
+      "label": "Jaraguá do Sul",
+      "coordinates": [
+        -49.15405,
+        -26.4342
+      ]
+    },
+    {
+      "file": "sao_jose.jpg",
+      "city": "sao_jose",
+      "label": "São José",
+      "coordinates": [
+        -48.65785,
+        -27.5899
+      ]
+    }
+  ],
+  "se": [
+    {
+      "file": "itabaiana.jpg",
+      "city": "itabaiana",
+      "label": "Itabaiana",
+      "coordinates": [
+        -37.4255,
+        -10.6989
+      ]
+    },
+    {
+      "file": "nossa_senhora_do_socorro.jpg",
+      "city": "nossa_senhora_do_socorro",
+      "label": "Nossa Senhora do Socorro",
+      "coordinates": [
+        -37.17325,
+        -10.8734
+      ]
+    },
+    {
+      "file": "sao_cristovao.jpg",
+      "city": "sao_cristovao",
+      "label": "São Cristóvão",
+      "coordinates": [
+        -37.2109,
+        -10.9688
+      ]
+    },
+    {
+      "file": "simao_dias.jpg",
+      "city": "simao_dias",
+      "label": "Simão Dias",
+      "coordinates": [
+        -37.82515,
+        -10.74075
+      ]
+    },
+    {
+      "file": "tobias_barreto.jpg",
+      "city": "tobias_barreto",
+      "label": "Tobias Barreto",
+      "coordinates": [
+        -37.987,
+        -11.0814
+      ]
+    }
+  ],
+  "sp": [
+    {
+      "file": "guarulhos.jpg",
+      "city": "guarulhos",
+      "label": "Guarulhos",
+      "coordinates": [
+        -46.4535,
+        -23.39025
+      ]
+    },
+    {
+      "file": "maua.jpg",
+      "city": "maua",
+      "label": "Mauá",
+      "coordinates": [
+        -46.4347,
+        -23.6654
+      ]
+    },
+    {
+      "file": "santo_andre.jpg",
+      "city": "santo_andre",
+      "label": "Santo André",
+      "coordinates": [
+        -46.4228,
+        -23.71075
+      ]
+    },
+    {
+      "file": "sao_bernardo_do_campo.jpg",
+      "city": "sao_bernardo_do_campo",
+      "label": "São Bernardo do Campo",
+      "coordinates": [
+        -46.5308,
+        -23.8044
+      ]
+    },
+    {
+      "file": "sao_paulo.jpg",
+      "city": "sao_paulo",
+      "label": "São Paulo",
+      "coordinates": [
+        -46.59485,
+        -23.68245
+      ]
+    }
+  ],
+  "to": [
+    {
+      "file": "colinas_do_tocantins.jpg",
+      "city": "colinas_do_tocantins",
+      "label": "Colinas do Tocantins",
+      "coordinates": [
+        -48.515,
+        -8.0684
+      ]
+    }
+  ]
+}

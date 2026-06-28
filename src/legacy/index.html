@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Globo Aços – Coberturas Metálicas Premium | Americana/SP</title>
+  <meta name="description" content="Fabricação e instalação de coberturas metálicas premium. Telhas zipadas, lanternins, venezianas industriais e exaustores eólicos com mão de obra especializada em Americana/SP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900;1,14..32,400&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="22" fill="#1a2b4a"/>
+          <!-- telhado / chevron -->
+          <path d="M10 27L22 13L34 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <!-- ponto verde -->
+          <circle cx="22" cy="30" r="3.5" fill="#3a9e48"/>
+        </svg>
+      </span>
+      <span class="logo-text">GLOBO<strong>AÇOS</strong></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#obras">Cobertura Nacional</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="https://wa.me/5519989694232" class="btn btn-primary nav-cta" target="_blank" rel="noopener">
+      <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#fff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.981-1.406A9.953 9.953 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      WhatsApp
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Fabricação Própria · Americana/SP
+    </div>
+    <h1 class="hero-title">
+      <span class="line"><span class="word">Coberturas</span></span>
+      <span class="line"><span class="word hero-title-accent">Metálicas</span></span>
+      <span class="line"><em class="word">de Alta Performance</em></span>
+    </h1>
+    <p class="hero-sub">
+      <span id="typedText"></span><span class="typed-cursor">|</span>
+    </p>
+    <div class="hero-actions">
+      <a href="https://wa.me/5519989694232" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+        Solicitar Orçamento Grátis
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#projetos" class="btn btn-ghost btn-lg">
+        Ver Projetos
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Projetos Entregues</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Anos no Mercado</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">Mão de Obra CLT</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</section>
+
+<!-- ===== SOBRE ===== -->
+<section class="sobre section-pad" id="sobre">
+  <div class="container">
+    <div class="sobre-grid">
+      <div class="sobre-visual">
+        <div class="sobre-card-main">
+          <div class="sobre-img-icon">
+            <svg width="56" height="56" fill="none" viewBox="0 0 56 56"><path d="M10 44L28 12L46 44H36L28 28L20 44H10Z" fill="#3a9e48"/></svg>
+          </div>
+          <div class="sobre-big-number">15</div>
+          <div class="sobre-badge-float">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Fabricação Certificada
+          </div>
+        </div>
+        <div class="sobre-card-secondary">
+          <div class="mvv-item">
+            <div class="mvv-icon">🎯</div>
+            <div>
+              <strong>Missão</strong>
+              <p>Excelência em produtos e serviços com inovação e tecnologia.</p>
+            </div>
+          </div>
+          <div class="mvv-item">
+            <div class="mvv-icon">🔭</div>
+            <div>
+              <strong>Visão</strong>
+              <p>Ser referência no mercado de coberturas metálicas.</p>
+            </div>
+          </div>
+          <div class="mvv-item">
+            <div class="mvv-icon">💡</div>
+            <div>
+              <strong>Valores</strong>
+              <p>Credibilidade, respeito e parceria com clientes e colaboradores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sobre-content">
+        <div class="section-tag">Quem Somos</div>
+        <h2 class="section-title">Expertise em coberturas metálicas há mais de <span class="highlight">15 anos</span></h2>
+        <p class="section-text">A Globo Aços é uma empresa especializada na fabricação e instalação de coberturas metálicas industriais e comerciais. Com sede em Americana/SP, atendemos construtoras, pré-moldados, engenharias e empresas particulares em todo o estado de São Paulo.</p>
+        <p class="section-text">Nosso diferencial está na cadeia completa: fabricamos nossos próprios produtos e instalamos com equipe própria — nenhuma terceirização. Todos os profissionais são contratados via CLT e treinados continuamente para atender às mais rígidas normas regulamentadoras.</p>
+        <div class="sobre-features">
+          <div class="feature-item">
+            <div class="feature-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span>Fabricação 100% própria</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span>Equipe CLT treinada</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span>Normas NR garantidas</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span>Entrega ágil e rastreável</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRODUTOS ===== -->
+<section class="produtos section-pad" id="produtos">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Nossos Produtos</div>
+      <h2 class="section-title">Soluções completas em <span class="highlight">coberturas metálicas</span></h2>
+      <p class="section-sub">Fabricados com materiais de primeira linha — aço galvanizado e galvalume — para máxima durabilidade e estanqueidade.</p>
+    </div>
+    <div class="produtos-grid">
+
+      <div class="produto-card produto-card--featured">
+        <div class="produto-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><path d="M5 32L20 8L35 32" stroke="#3a9e48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 24H30" stroke="#3a9e48" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <span class="produto-tag">Mais Popular</span>
+        <h3>Telha Zipada</h3>
+        <p>Sistema de cobertura de alta performance com encaixe zip, garantindo estanqueidade total sem parafusos expostos. Ideal para grandes vãos industriais.</p>
+        <ul class="produto-specs">
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Estanqueidade total</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Sem furos expostos</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Grandes vãos livres</li>
+        </ul>
+        <a href="https://wa.me/5519989694232" class="btn btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
+      </div>
+
+      <div class="produto-card">
+        <div class="produto-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><path d="M5 30L15 10L25 30" stroke="#3a9e48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M25 30L35 10" stroke="#3a9e48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Lanternins</h3>
+        <p>Elementos de ventilação e iluminação natural integrados à cobertura, promovendo conforto térmico e redução de custos com energia elétrica.</p>
+        <ul class="produto-specs">
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Ventilação natural</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Iluminação natural</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Economia de energia</li>
+        </ul>
+        <a href="https://wa.me/5519989694232" class="btn btn-outline" target="_blank" rel="noopener">Solicitar Orçamento</a>
+      </div>
+
+      <div class="produto-card">
+        <div class="produto-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><rect x="8" y="12" width="24" height="18" rx="2" stroke="#3a9e48" stroke-width="2.5"/><path d="M8 20H32M16 12V30M24 12V30" stroke="#3a9e48" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Venezianas Industriais</h3>
+        <p>Soluções de ventilação lateral com lâminas ajustáveis para controle de fluxo de ar em galpões e instalações industriais de grande porte.</p>
+        <ul class="produto-specs">
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Controle de ventilação</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Alta resistência</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Vãos personalizados</li>
+        </ul>
+        <a href="https://wa.me/5519989694232" class="btn btn-outline" target="_blank" rel="noopener">Solicitar Orçamento</a>
+      </div>
+
+      <div class="produto-card">
+        <div class="produto-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><circle cx="20" cy="20" r="10" stroke="#3a9e48" stroke-width="2.5"/><path d="M20 10V6M20 34V30M10 20H6M34 20H30" stroke="#3a9e48" stroke-width="2" stroke-linecap="round"/><path d="M14 14L11 11M26 26L29 29M26 14L29 11M14 26L11 29" stroke="#3a9e48" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Exaustores Eólicos</h3>
+        <p>Equipamentos de ventilação movidos pelo vento, sem necessidade de energia elétrica. Reduzem temperatura interna e melhoram a qualidade do ar nos ambientes.</p>
+        <ul class="produto-specs">
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Sem consumo elétrico</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Manutenção mínima</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Vida útil prolongada</li>
+        </ul>
+        <a href="https://wa.me/5519989694232" class="btn btn-outline" target="_blank" rel="noopener">Solicitar Orçamento</a>
+      </div>
+
+      <div class="produto-card">
+        <div class="produto-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 40 40"><path d="M10 30V15L20 8L30 15V30" stroke="#3a9e48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="15" y="20" width="10" height="10" stroke="#3a9e48" stroke-width="2"/></svg>
+        </div>
+        <h3>Clips para Telha Zipada</h3>
+        <p>Fabricados com chapa base em aço galvanizado 1,25mm e trava em galvalume 0,65mm. Componente essencial para a fixação segura e durável das telhas zipadas.</p>
+        <ul class="produto-specs">
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Galvanizado 1,25mm</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Trava galvalume 0,65mm</li>
+          <li><svg width="14" height="14" fill="#3a9e48" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Alta resistência</li>
+        </ul>
+        <a href="https://wa.me/5519989694232" class="btn btn-outline" target="_blank" rel="noopener">Solicitar Orçamento</a>
+      </div>
+
+      <div class="produto-card produto-card--cta">
+        <div class="produto-cta-content">
+          <h3>Precisa de algo personalizado?</h3>
+          <p>Nossa equipe de engenharia desenvolve soluções customizadas para projetos especiais.</p>
+          <a href="https://wa.me/5519989694232" class="btn btn-primary" target="_blank" rel="noopener">Falar com Especialista</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== DIFERENCIAIS / PROCESSO ===== -->
+<section class="diferenciais section-pad" id="diferenciais">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Por Que a Globo Aços</div>
+      <h2 class="section-title">Do projeto à entrega, <span class="highlight">sem terceiros</span></h2>
+      <p class="section-sub">Controlamos cada etapa do processo para garantir qualidade, prazo e segurança em todas as obras.</p>
+    </div>
+    <div class="processo-timeline">
+      <div class="processo-step">
+        <div class="processo-num">01</div>
+        <div class="processo-icon">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Análise do Projeto</h4>
+        <p>Recebemos seu projeto ou elaboramos com nossa equipe técnica, considerando cargas, ventos e normas ABNT.</p>
+      </div>
+      <div class="processo-connector"></div>
+      <div class="processo-step">
+        <div class="processo-num">02</div>
+        <div class="processo-icon">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Fabricação Própria</h4>
+        <p>Produzimos telhas, clips, lanternins e venezianas em nossa planta com equipamentos de última geração.</p>
+      </div>
+      <div class="processo-connector"></div>
+      <div class="processo-step">
+        <div class="processo-num">03</div>
+        <div class="processo-icon">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Logística Ágil</h4>
+        <p>Entrega no prazo combinado com frota própria para obras em toda a região de Campinas e interior paulista.</p>
+      </div>
+      <div class="processo-connector"></div>
+      <div class="processo-step">
+        <div class="processo-num">04</div>
+        <div class="processo-icon">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke="#3a9e48" stroke-width="2"/><circle cx="12" cy="12" r="3" stroke="#3a9e48" stroke-width="2"/></svg>
+        </div>
+        <h4>Instalação Especializada</h4>
+        <p>Equipe CLT treinada e certificada realiza a instalação com todos os EPIs e em conformidade com as NRs.</p>
+      </div>
+      <div class="processo-connector"></div>
+      <div class="processo-step">
+        <div class="processo-num">05</div>
+        <div class="processo-icon">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Garantia Total</h4>
+        <p>Entregamos com garantia e suporte pós-obra. Você tem um parceiro confiável para toda a vida útil da cobertura.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NÚMEROS ===== -->
+<section class="numeros">
+  <div class="numeros-inner container">
+    <div class="numero-item reveal-up">
+      <span class="numero-val" data-target="500">0</span>
+      <span class="numero-suffix">+</span>
+      <span class="numero-label">Obras concluídas</span>
+    </div>
+    <div class="numero-item reveal-up" style="transition-delay:.1s">
+      <span class="numero-val" data-target="15">0</span>
+      <span class="numero-suffix">+</span>
+      <span class="numero-label">Anos de experiência</span>
+    </div>
+    <div class="numero-item reveal-up" style="transition-delay:.2s">
+      <span class="numero-val" data-target="50">0</span>
+      <span class="numero-suffix">+</span>
+      <span class="numero-label">Clientes ativos</span>
+    </div>
+    <div class="numero-item reveal-up" style="transition-delay:.3s">
+      <span class="numero-val" data-target="100">0</span>
+      <span class="numero-suffix">%</span>
+      <span class="numero-label">Equipe própria CLT</span>
+    </div>
+  </div>
+  <div class="numeros-divider"></div>
+</section>
+
+<!-- ===== PROJETOS ===== -->
+<section class="projetos section-pad" id="projetos">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Portfólio</div>
+      <h2 class="section-title">Projetos que <span class="highlight">falam por si</span></h2>
+      <p class="section-sub">Obras executadas em parceria com construtoras, pré-moldados e engenharias em diferentes regiões do Brasil.</p>
+    </div>
+    <div class="projetos-filter">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="industrial">Industrial</button>
+      <button class="filter-btn" data-filter="comercial">Comercial</button>
+      <button class="filter-btn" data-filter="zipada">Telha Zipada</button>
+    </div>
+    <div class="projetos-grid">
+      <article class="projeto-item projeto-item--hero" data-cat="industrial zipada">
+        <div class="projeto-img">
+          <img src="/images/states/ma/sao_luis.jpg" alt="Cobertura metálica executada em São Luís, Maranhão" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">01</span>
+            <span class="projeto-tag-overlay">Telha Zipada · Industrial</span>
+            <h4>Complexo Logístico — São Luís/MA</h4>
+            <p>Cobertura de grande vão desenvolvida para alta produtividade operacional.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--portrait" data-cat="comercial zipada">
+        <div class="projeto-img">
+          <img src="/images/states/sp/santo_andre.jpg" alt="Cobertura metálica executada em Santo André, São Paulo" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">02</span>
+            <span class="projeto-tag-overlay">Cobertura Técnica · Comercial</span>
+            <h4>Centro Empresarial — Santo André/SP</h4>
+            <p>Solução arquitetônica com acabamento preciso e montagem especializada.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--compact" data-cat="industrial">
+        <div class="projeto-img">
+          <img src="/images/states/ba/camacari.jpg" alt="Cobertura metálica executada em Camaçari, Bahia" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">03</span>
+            <span class="projeto-tag-overlay">Estrutura · Industrial</span>
+            <h4>Planta Industrial — Camaçari/BA</h4>
+            <p>Estrutura preparada para ambientes industriais de alta exigência.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--panorama" data-cat="industrial zipada">
+        <div class="projeto-img">
+          <img src="/images/states/mg/montes_claros.jpg" alt="Cobertura metálica executada em Montes Claros, Minas Gerais" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">04</span>
+            <span class="projeto-tag-overlay">Galpão · Telha Zipada</span>
+            <h4>Centro de Distribuição — Montes Claros/MG</h4>
+            <p>Desempenho térmico, estanqueidade e agilidade em uma cobertura de grande escala.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--medium" data-cat="comercial">
+        <div class="projeto-img">
+          <img src="/images/states/pr/sao_jose_dos_pinhais.jpg" alt="Cobertura metálica executada em São José dos Pinhais, Paraná" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">05</span>
+            <span class="projeto-tag-overlay">Engenharia · Comercial</span>
+            <h4>Unidade Operacional — São José dos Pinhais/PR</h4>
+            <p>Projeto integrado para durabilidade e manutenção simplificada.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--small" data-cat="industrial">
+        <div class="projeto-img">
+          <img src="/images/states/ap/santana.jpg" alt="Cobertura metálica executada em Santana, Amapá" loading="lazy" decoding="async" />
+          <div class="projeto-overlay">
+            <span class="projeto-index">06</span>
+            <span class="projeto-tag-overlay">Montagem · Industrial</span>
+            <h4>Base Operacional — Santana/AP</h4>
+            <p>Execução ágil com equipe própria.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-item projeto-item--cta" data-cat="all">
+        <div class="projeto-img">
+          <div class="projeto-cta-content">
+            <span class="projeto-cta-kicker">Seu próximo projeto</span>
+            <h3>Quer ver sua obra aqui?</h3>
+            <p>Vamos criar uma cobertura que também merece destaque.</p>
+            <a href="https://wa.me/5519989694232" class="btn btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MAPA BRASIL ===== -->
+<section class="mapa-section" id="obras">
+
+  <div class="mapa-bg-glow"></div>
+
+  <div class="container mapa-header">
+    <div class="section-tag">Abrangência Nacional</div>
+    <h2 class="section-title">Obras em todo o <span class="highlight">Brasil</span></h2>
+    <p class="section-sub">Clique nos pontos para conhecer as obras realizadas em cada região.</p>
+  </div>
+
+  <!-- MAPA SOLTO: sem moldura, sem card -->
+  <div class="mapa-stage" id="mapaStage">
+    <div class="mapa-float" id="mapaFloat">
+
+      <!-- SVG do Brasil inline — viewBox calibrado para o território -->
+      <svg id="brazilSvg"
+           viewBox="170 100 470 560"
+           xmlns="http://www.w3.org/2000/svg"
+           aria-label="Mapa do Brasil com localidades de obras">
+
+        <!-- Sombra / glow do território -->
+        <defs>
+          <filter id="mapGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="8" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+          </filter>
+          <filter id="pinGlow" x="-100%" y="-100%" width="300%" height="300%">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+          </filter>
+          <radialGradient id="brazilFill" cx="50%" cy="50%" r="50%">
+            <stop offset="0%"   stop-color="#1e3a6a" stop-opacity="0.95"/>
+            <stop offset="100%" stop-color="#111d2e" stop-opacity="0.95"/>
+          </radialGradient>
+          <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%"   stop-color="#3a9e48" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#1a6b88" stop-opacity="0.7"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Território do Brasil — path real GeoJSON simplificado -->
+        <path id="brazilPath"
+          d="M400,108 L420,112 L445,118 L462,125 L478,130 L492,128
+             L510,132 L525,140 L535,155 L538,170 L530,182 L520,190
+             L515,205 L518,218 L525,228 L532,240 L535,255 L530,265
+             L520,272 L510,278 L505,290 L508,305 L515,315 L520,328
+             L518,342 L510,355 L502,365 L498,378 L500,392 L505,405
+             L510,418 L508,432 L500,445 L490,455 L478,462 L465,468
+             L452,472 L440,478 L428,485 L418,495 L410,508 L405,522
+             L398,535 L390,545 L380,552 L368,558 L355,560 L342,558
+             L330,552 L320,545 L312,535 L308,522 L305,508 L302,495
+             L298,482 L292,470 L282,460 L272,452 L262,445 L252,440
+             L242,435 L232,428 L225,418 L220,405 L218,390 L220,375
+             L225,362 L230,348 L232,335 L228,322 L222,310 L218,298
+             L215,285 L215,272 L218,260 L222,248 L225,235 L222,222
+             L218,210 L215,198 L218,185 L225,175 L232,165 L240,155
+             L250,148 L262,142 L275,138 L288,135 L302,132 L315,128
+             L328,122 L342,118 L358,114 L375,110 L390,108 Z"
+          fill="url(#brazilFill)"
+          stroke="url(#strokeGrad)"
+          stroke-width="1.8"
+          filter="url(#mapGlow)"
+          class="brazil-territory"/>
+
+        <!-- Linhas internas de estados (muito simplificadas, efeito decorativo) -->
+        <g class="state-lines" opacity="0.12" stroke="#3a9e48" stroke-width="0.8" fill="none">
+          <line x1="350" y1="150" x2="350" y2="450"/>
+          <line x1="300" y1="200" x2="500" y2="200"/>
+          <line x1="290" y1="300" x2="510" y2="300"/>
+          <line x1="310" y1="380" x2="490" y2="380"/>
+          <line x1="260" y1="250" x2="260" y2="430"/>
+          <line x1="430" y1="160" x2="430" y2="400"/>
+          <line x1="280" y1="350" x2="430" y2="350"/>
+        </g>
+
+        <!-- PINS das cidades — grupo animável -->
+        <g id="mapPins">
+
+          <!-- Americana/SP -->
+          <g class="map-pin" data-id="americana" data-city="Americana/SP" data-count="4"
+             transform="translate(358,388)">
+            <circle class="pin-ring" r="16" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="22" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="7" fill="#3a9e48"/>
+            <circle r="3.5" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- Campinas/SP -->
+          <g class="map-pin" data-id="campinas" data-city="Campinas/SP" data-count="3"
+             transform="translate(368,378)">
+            <circle class="pin-ring" r="14" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="19" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="6" fill="#3a9e48"/>
+            <circle r="3" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- São Paulo/SP -->
+          <g class="map-pin" data-id="sao-paulo" data-city="São Paulo/SP" data-count="3"
+             transform="translate(372,400)">
+            <circle class="pin-ring" r="18" fill="none" stroke="#3a9e48" stroke-width="1.2" opacity="0.5"/>
+            <circle class="pin-ring pin-ring-2" r="26" fill="none" stroke="#3a9e48" stroke-width="0.8" opacity="0.25"/>
+            <circle class="pin-dot" r="9" fill="#3a9e48"/>
+            <circle r="4.5" fill="white" opacity="0.95"/>
+          </g>
+
+          <!-- Ribeirão Preto/SP -->
+          <g class="map-pin" data-id="ribeirao-preto" data-city="Ribeirão Preto/SP" data-count="2"
+             transform="translate(378,360)">
+            <circle class="pin-ring" r="13" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="18" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="6" fill="#3a9e48"/>
+            <circle r="3" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- Curitiba/PR -->
+          <g class="map-pin" data-id="curitiba" data-city="Curitiba/PR" data-count="2"
+             transform="translate(365,430)">
+            <circle class="pin-ring" r="14" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="20" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="6.5" fill="#3a9e48"/>
+            <circle r="3.2" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- Belo Horizonte/MG -->
+          <g class="map-pin" data-id="belo-horizonte" data-city="Belo Horizonte/MG" data-count="2"
+             transform="translate(403,348)">
+            <circle class="pin-ring" r="14" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="20" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="6.5" fill="#3a9e48"/>
+            <circle r="3.2" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- Goiânia/GO -->
+          <g class="map-pin" data-id="goiania" data-city="Goiânia/GO" data-count="2"
+             transform="translate(378,308)">
+            <circle class="pin-ring" r="13" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.4"/>
+            <circle class="pin-ring pin-ring-2" r="18" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.2"/>
+            <circle class="pin-dot" r="6" fill="#3a9e48"/>
+            <circle r="3" fill="white" opacity="0.9"/>
+          </g>
+
+          <!-- Manaus/AM -->
+          <g class="map-pin" data-id="manaus" data-city="Manaus/AM" data-count="1"
+             transform="translate(295,228)">
+            <circle class="pin-ring" r="12" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.35"/>
+            <circle class="pin-ring pin-ring-2" r="17" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.15"/>
+            <circle class="pin-dot" r="5.5" fill="#3a9e48"/>
+            <circle r="2.8" fill="white" opacity="0.85"/>
+          </g>
+
+          <!-- Brasília/DF -->
+          <g class="map-pin" data-id="brasilia" data-city="Brasília/DF" data-count="2"
+             transform="translate(395,298)">
+            <circle class="pin-ring" r="13" fill="none" stroke="#ffb83f" stroke-width="1.2" opacity="0.5"/>
+            <circle class="pin-ring pin-ring-2" r="19" fill="none" stroke="#ffb83f" stroke-width="0.8" opacity="0.25"/>
+            <circle class="pin-dot" r="6.5" fill="#ffb83f"/>
+            <circle r="3.2" fill="white" opacity="0.95"/>
+          </g>
+
+          <!-- Recife/PE -->
+          <g class="map-pin" data-id="recife" data-city="Recife/PE" data-count="1"
+             transform="translate(478,268)">
+            <circle class="pin-ring" r="12" fill="none" stroke="#3a9e48" stroke-width="1" opacity="0.35"/>
+            <circle class="pin-ring pin-ring-2" r="17" fill="none" stroke="#3a9e48" stroke-width="0.7" opacity="0.15"/>
+            <circle class="pin-dot" r="5.5" fill="#3a9e48"/>
+            <circle r="2.8" fill="white" opacity="0.85"/>
+          </g>
+
+        </g><!-- /mapPins -->
+
+        <!-- Labels das cidades (visíveis no hover via CSS) -->
+        <g id="mapLabels" pointer-events="none">
+          <g class="map-label" data-for="americana">
+            <rect x="368" y="371" width="88" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="412" y="383" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Americana/SP</text>
+          </g>
+          <g class="map-label" data-for="campinas">
+            <rect x="376" y="361" width="76" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="414" y="373" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Campinas/SP</text>
+          </g>
+          <g class="map-label" data-for="sao-paulo">
+            <rect x="380" y="382" width="78" height="18" rx="4" fill="rgba(13,21,32,0.92)"/>
+            <text x="419" y="394" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#3a9e48" font-weight="700">São Paulo/SP</text>
+          </g>
+          <g class="map-label" data-for="ribeirao-preto">
+            <rect x="387" y="344" width="95" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="435" y="356" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Ribeirão Preto/SP</text>
+          </g>
+          <g class="map-label" data-for="curitiba">
+            <rect x="374" y="413" width="70" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="409" y="425" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Curitiba/PR</text>
+          </g>
+          <g class="map-label" data-for="belo-horizonte">
+            <rect x="412" y="332" width="96" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="460" y="344" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Belo Horizonte/MG</text>
+          </g>
+          <g class="map-label" data-for="goiania">
+            <rect x="386" y="291" width="72" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="422" y="303" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Goiânia/GO</text>
+          </g>
+          <g class="map-label" data-for="manaus">
+            <rect x="303" y="211" width="70" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="338" y="223" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Manaus/AM</text>
+          </g>
+          <g class="map-label" data-for="brasilia">
+            <rect x="403" y="281" width="72" height="18" rx="4" fill="rgba(13,21,32,0.92)"/>
+            <text x="439" y="293" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffb83f" font-weight="700">Brasília/DF</text>
+          </g>
+          <g class="map-label" data-for="recife">
+            <rect x="486" y="252" width="64" height="18" rx="4" fill="rgba(13,21,32,0.88)"/>
+            <text x="518" y="264" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#ffffff" font-weight="600">Recife/PE</text>
+          </g>
+        </g>
+
+      </svg><!-- /brazil SVG -->
+
+      <!-- Tooltip flutuante -->
+      <div class="mapa-tooltip" id="mapaTooltip">
+        <span class="mapa-tooltip-dot"></span>
+        <span id="mapaTooltipText">—</span>
+      </div>
+
+    </div><!-- /mapa-float -->
+
+    <!-- Painel de obras: aparece ao lado direito sem moldura -->
+    <div class="mapa-panel" id="mapaPanel">
+      <div class="mapa-panel-inner" id="mapaPanelInner">
+
+        <div class="mapa-panel-empty" id="mapaPanelEmpty">
+          <div class="mapa-panel-empty-icon">
+            <svg width="40" height="40" fill="none" viewBox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="#3a9e48" stroke-width="1.5" fill="none"/>
+              <circle cx="12" cy="9" r="2.5" stroke="#3a9e48" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <p>Selecione uma cidade<br/>no mapa</p>
+        </div>
+
+        <div id="mapaPanelContent" style="display:none">
+          <div class="mapa-panel-header">
+            <span class="mapa-panel-dot"></span>
+            <div class="mapa-panel-title">
+              <h3 id="panelCityName"></h3>
+              <span id="panelCityCount"></span>
+            </div>
+            <button class="mapa-panel-close" id="mapaPanelClose" aria-label="Fechar">✕</button>
+          </div>
+          <div class="mapa-obras-list" id="mapaObrasList"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /mapa-stage -->
+
+</section><!-- /mapa-section -->
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizar obra">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">
+    <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+  </button>
+  <button class="lightbox-prev" id="lightboxPrev" aria-label="Anterior">
+    <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button class="lightbox-next" id="lightboxNext" aria-label="Próxima">
+    <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="lightbox-img-wrap">
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+  <div class="lightbox-caption">
+    <strong id="lightboxTitle"></strong>
+    <span id="lightboxDesc"></span>
+  </div>
+  <div class="lightbox-counter" id="lightboxCounter"></div>
+</div>
+
+<!-- ===== DEPOIMENTOS ===== -->
+<section class="depoimentos section-pad">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Depoimentos</div>
+      <h2 class="section-title">O que nossos <span class="highlight">clientes dizem</span></h2>
+    </div>
+    <div class="depoimentos-grid">
+      <div class="depoimento-card">
+        <div class="depo-stars">★★★★★</div>
+        <p>"A Globo Aços entregou nossa cobertura zipada no prazo e com qualidade impecável. A equipe é extremamente profissional e toda a obra foi conduzida com segurança total."</p>
+        <div class="depo-author">
+          <div class="depo-avatar">JR</div>
+          <div>
+            <strong>João Roberto S.</strong>
+            <span>Gerente de Obras – Construtora Regional</span>
+          </div>
+        </div>
+      </div>
+      <div class="depoimento-card depoimento-card--featured">
+        <div class="depo-stars">★★★★★</div>
+        <p>"Trabalhamos com a Globo Aços em três projetos industriais. A diferença está no controle total que eles têm: fabricam, entregam e instalam tudo com equipe própria. Isso dá uma segurança enorme para o contratante."</p>
+        <div class="depo-author">
+          <div class="depo-avatar">MC</div>
+          <div>
+            <strong>Marcos Carvalho</strong>
+            <span>Diretor – Engenharia MC Projetos</span>
+          </div>
+        </div>
+      </div>
+      <div class="depoimento-card">
+        <div class="depo-stars">★★★★★</div>
+        <p>"Os exaustores eólicos reduziram em quase 30% a temperatura no nosso galpão. O atendimento da equipe foi excelente do primeiro ao último contato. Recomendo muito."</p>
+        <div class="depo-author">
+          <div class="depo-avatar">AL</div>
+          <div>
+            <strong>Ana Lima</strong>
+            <span>Gerente Industrial – Indústria Alimentos SP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="cta-bg">
+    <div class="cta-glow"></div>
+  </div>
+  <div class="container cta-inner">
+    <div class="cta-content">
+      <h2>Pronto para transformar sua cobertura?</h2>
+      <p>Solicite um orçamento gratuito. Nossa equipe retorna em até 2 horas úteis.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="https://wa.me/5519989694232" class="btn btn-white btn-lg" target="_blank" rel="noopener">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="currentColor"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.981-1.406A9.953 9.953 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Falar no WhatsApp
+      </a>
+      <a href="mailto:adm@globoacos.com.br" class="btn btn-outline-white btn-lg" target="_blank" rel="noopener">
+        Enviar E-mail
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTATO ===== -->
+<section class="contato section-pad" id="contato">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Contato</div>
+      <h2 class="section-title">Vamos construir <span class="highlight">juntos</span></h2>
+    </div>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <div class="contato-item">
+          <div class="contato-icon">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>Endereço</strong>
+            <span>Avenida Cillos, 2215 – Jd. São José<br/>Americana/SP – CEP: 13467-000</span>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>Telefone / WhatsApp</strong>
+            <span>(19) 3645-8868<br/>(19) 9 8969-4232</span>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>E-mail</strong>
+            <span>adm@globoacos.com.br</span>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#3a9e48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>Horário de Atendimento</strong>
+            <span>Seg–Qui: 07:30 às 17:00h<br/>Sex: 07:30 às 16:00h<br/>Sáb: 07:30 às 12:00h</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <form class="contato-form" id="contatoForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nome">Nome completo *</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa" placeholder="Sua empresa" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(19) 9 0000-0000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="servico">Produto / Serviço de Interesse</label>
+          <select id="servico" name="servico">
+            <option value="">Selecione um produto</option>
+            <option value="zipada">Telha Zipada</option>
+            <option value="lanternins">Lanternins</option>
+            <option value="venezianas">Venezianas Industriais</option>
+            <option value="exaustores">Exaustores Eólicos</option>
+            <option value="clips">Clips para Telha Zipada</option>
+            <option value="outro">Outro / Consulta</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem *</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva seu projeto ou tire suas dúvidas..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-full">
+          Enviar Mensagem
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-note">* Campos obrigatórios. Respondemos em até 2 horas úteis.</p>
+        <div class="form-success" id="formSuccess">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#3a9e48" stroke-width="2"/></svg>
+          Mensagem enviada! Retornaremos em breve.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <span class="logo-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><circle cx="22" cy="22" r="22" fill="#1a2b4a"/><path d="M10 27L22 13L34 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="22" cy="30" r="3.5" fill="#3a9e48"/></svg>
+        </span>
+        <span class="logo-text">GLOBO<strong>AÇOS</strong></span>
+      </a>
+      <p>Coberturas metálicas com fabricação própria e instalação especializada em Americana/SP e região.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Produtos</h5>
+        <a href="#produtos">Telha Zipada</a>
+        <a href="#produtos">Lanternins</a>
+        <a href="#produtos">Venezianas Industriais</a>
+        <a href="#produtos">Exaustores Eólicos</a>
+        <a href="#produtos">Clips para Zipada</a>
+      </div>
+      <div class="footer-col">
+        <h5>Empresa</h5>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <a href="tel:+551936458868">(19) 3645-8868</a>
+        <a href="https://wa.me/5519989694232" target="_blank" rel="noopener">(19) 9 8969-4232</a>
+        <a href="mailto:adm@globoacos.com.br">adm@globoacos.com.br</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© 2026 Globo Aços Coberturas Metálicas. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5519989694232" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contato via WhatsApp">
+  <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.981-1.406A9.953 9.953 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <span class="whatsapp-pulse"></span>
+</a>
+
+<script src="app.js"></script>
+</body>
+</html>
+
