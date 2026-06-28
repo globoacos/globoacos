@@ -419,24 +419,51 @@ document.head.appendChild(filterStyle);
 // ACTIVE NAV ON SCROLL
 // =============================================
 (function initActiveNav() {
-  const sections = document.querySelectorAll('section[id]');
-  const navAs = document.querySelectorAll('.nav-links a');
+  const navAs = Array.from(document.querySelectorAll('.nav-links a[href^="#"]'));
+  const getTargets = () => navAs
+    .map(a => {
+      const id = a.getAttribute('href')?.slice(1);
+      return id ? { id, link: a, el: document.getElementById(id) } : null;
+    })
+    .filter(item => item && item.el);
 
-  const obs = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        navAs.forEach(a => {
-          a.classList.toggle('active-link', a.getAttribute('href') === '#' + entry.target.id);
-        });
-      }
+  let ticking = false;
+
+  function setActive(id) {
+    navAs.forEach(a => {
+      a.classList.toggle('active-link', a.getAttribute('href') === `#${id}`);
     });
-  }, { threshold: 0.4 });
+  }
 
-  sections.forEach(s => obs.observe(s));
+  function updateActiveNav() {
+    ticking = false;
+    const targets = getTargets();
+    if (!targets.length) return;
 
-  const s = document.createElement('style');
-  s.textContent = `.nav-links a.active-link { color: #3a9e48 !important; } .nav-links a.active-link::after { left: 16px !important; right: 16px !important; }`;
-  document.head.appendChild(s);
+    const headerOffset = (navbar?.offsetHeight || 0) + Math.round(window.innerHeight * 0.22);
+    const currentY = window.scrollY + headerOffset;
+    let activeId = targets[0].id;
+
+    targets.forEach(({ id, el }) => {
+      if (el.offsetTop <= currentY) activeId = id;
+    });
+
+    const nearBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8;
+    if (nearBottom) activeId = targets[targets.length - 1].id;
+
+    setActive(activeId);
+  }
+
+  function requestUpdate() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(updateActiveNav);
+  }
+
+  window.addEventListener('scroll', requestUpdate, { passive: true });
+  window.addEventListener('resize', requestUpdate, { passive: true });
+  window.addEventListener('load', updateActiveNav);
+  updateActiveNav();
 })();
 
 // =============================================
